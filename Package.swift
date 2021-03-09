@@ -9,10 +9,7 @@ let package = Package(
     targets: [
         .target(
             name: "SWRevealViewController",
-            dependencies: [],
-            path: "SWRevealViewController",
-            exclude: ["RevealControllerExample", "RevealControllerExample2", "RevealControllerExample3", "RevealControllerStoryboardExample2"],
-            sources: ["SWRevealViewController.h", "SWRevealViewController.m"],
+            path: "SWRevealViewController/",
             publicHeadersPath: "include"
         )
     ]
