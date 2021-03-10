@@ -3,7 +3,6 @@ import PackageDescription
 
 let package = Package(
     name: "SWRevealViewController",
-    platforms: [.iOS(.v9)],
     products: [
         .library(name: "SWRevealViewController", targets: ["SWRevealViewController"])
     ],
@@ -11,7 +10,7 @@ let package = Package(
         .target(
             name: "SWRevealViewController",
             path: "SWRevealViewController/",
-            publicHeadersPath: "include"
+            publicHeadersPath: "SWRevealViewController"
         )
     ]
 )
