@@ -1,4 +1,4 @@
-// swift-tools-version:4.2
+// swift-tools-version:5.3
 import PackageDescription
 
 let package = Package(
@@ -9,8 +9,8 @@ let package = Package(
     targets: [
         .target(
             name: "SWRevealViewController",
-            path: "SWRevealViewController/",
-            publicHeadersPath: "SWRevealViewController"
+            path: "SWRevealViewController",
+            publicHeadersPath: "."
         )
     ]
 )
